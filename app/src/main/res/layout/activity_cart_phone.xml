@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/images"
+    android:layout_height="match_parent"
+    tools:context=".CartPhoneActivity">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imagePhoto"
+        android:layout_width="297dp"
+        android:layout_height="145dp"
+        android:layout_weight="1"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_launcher_background" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:id="@+id/textName"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_phone"
+            android:id="@+id/textPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp" />
+        <EditText
+            android:hint="Enter your amount to buy"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtquantity"/>
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_phone"
+            android:layout_gravity="center"
+            android:id="@+id/imageButtonBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_shopping_cart_24" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo"
+    tools:context=".UserActivity">
+    <EditText
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/background_text"
+        android:hint="Enter your name"
+        android:id="@+id/edusername"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/background_text"
+        android:hint="Enter your address"
+        android:id="@+id/eduseradd"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/background_text"
+        android:hint="Enter your payment method"
+        android:id="@+id/eduserpayment"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/background_text"
+        android:hint="Enter your email"
+        android:id="@+id/eduseremail"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/background_text"
+        android:hint="Enter your account name"
+        android:id="@+id/edaccount"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:inputType="textPassword"
+        android:background="@drawable/background_text"
+        android:hint="Enter your password"
+        android:id="@+id/edpassword"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/background_text"
+        android:id="@+id/btregister"
+        android:text="Register"/>
+</LinearLayout>
